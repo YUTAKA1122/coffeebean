@@ -584,3 +584,108 @@ form textarea
     width: 1.5em;
 }
 
+/* Responsive design codes */
+
+@media  screen and (max-width:375px){
+     /* the codes below will only be applied to screens having a width of 
+     0px-375px */
+    .nav h1 a{
+        font-size: 0,8em
+    }
+
+    .nav ul
+    {
+        display: none;
+    }
+
+    .banner-text
+    {
+        width: 70%;
+    }
+
+    .banner-text h2{
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+
+    .banner-text span{
+        text-shadow: 3px 3px 6px #312a26
+    }
+
+    .ads-items
+    {
+        width: 100%;
+    }
+    
+    .merch-items
+    {
+        width: 49.5%;
+    }
+    
+    .merch-items:nth-child(2),
+    .merch-items:nth-child(6)
+    {
+        margin-right: 0;
+    }
+
+    .form-group
+    {
+        width: 100%;
+    }
+
+    .footer-widget
+    {
+        width: 99%;
+    }
+
+    .footer-widget:nth-child(2)
+    {
+        margin-right: 0;
+    }
+
+}
+
+
+@media  screen and (min-width:376px) and (max-width:768px)
+{
+     /* the codes below will only be applied to screens having a width of
+      376px-768px */
+    /* 768px is the width of iPad */
+
+    .nav ul
+    {
+        display: none;
+    }
+    
+    .ads-items
+    {
+        width: 100%;
+    }
+    
+    .merch-items
+    {
+        width: 49.5%;
+    }
+    
+    .merch-items:nth-child(2),
+    .merch-items:nth-child(6)
+    {
+        margin-right: 0;
+    }
+
+    .form-group
+    {
+        width: 100%;
+    }
+
+    .footer-widget
+    {
+        width: 49.5%;
+    }
+
+    .footer-widget:nth-child(2)
+    {
+        margin-right: 0;
+    }
+}
+
